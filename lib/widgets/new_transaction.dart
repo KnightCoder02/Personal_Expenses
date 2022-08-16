@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class NewTransaction extends StatefulWidget {
-  final Function() addTx;
+  final Function addTx;
   NewTransaction(this.addTx);
 
   @override
